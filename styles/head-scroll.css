@@ -1,0 +1,8 @@
+.head-scroll{
+    position: fixed;
+    top: 60px;
+    left: 140px;
+    right: 0px;
+    height: 40px;
+    background-color: beige;
+}

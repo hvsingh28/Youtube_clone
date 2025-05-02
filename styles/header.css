@@ -1,0 +1,207 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    margin-bottom: 30px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #121212fa;
+}
+.section1{
+    width: 300px;
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    column-gap: 20px;
+    padding-top: 7px;
+    padding-left: 25px;
+}
+
+.section2{
+    padding-left: 100px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    padding-top: 7px;
+    column-gap: 20px;
+    
+
+}
+.section3{
+    display: flex;
+    flex-direction: row;
+    
+    width: 300px;
+    
+
+
+}
+.search{
+    flex: 1;
+    max-width: 650px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 25px;
+    border-color: rgba(245, 245, 245, 0.363);
+    background-color: transparent;
+    
+
+    
+    
+
+}
+.search-bar{
+    flex: 90;
+    width: 0px;
+    color: whitesmoke;
+    font-family: roboto;
+    font-size: 20px;
+    object-fit: cover;
+    border: none;
+    margin: 0;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    padding-left: 18px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: transparent;
+}
+.search-button{
+    flex: 10;
+    border: none;
+    margin: 0;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: rgba(251, 251, 251, 0.212);
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ffffff03
+}
+.hamb{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    
+    margin-left: 20px;
+    background-color: transparent;
+    border: none;
+    
+
+}
+.hamb:hover{
+    cursor: pointer;
+}
+.logo{
+    display: inline-block;
+    width: 40px;
+    margin-top:0px;
+  
+}
+.logo:hover{
+    cursor: pointer;
+}
+.voice{
+    
+    margin-left: 0px;
+}
+.voice-button{
+    height: 45px;
+    width: 45px;
+    border-radius: 50px;
+    
+    
+    border-style: solid;
+    background-color: rgba(251, 251, 251, 0.212);
+    border-color: transparent;
+}
+.voice-button:hover{
+    cursor: pointer;
+}
+.voicing{
+    width: 20px;
+    margin-top: 5px;
+}
+.searchimg{
+    width: 20px;
+    margin-top: 5px;
+
+}
+.create{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    
+    width: 150px;
+    
+}
+.notification{
+    
+    width: 60px;
+    padding-top: 14px;
+    padding-left: 0px;
+
+}
+.user-profile{
+    
+    width: 90px;
+    padding-top: 10px;
+
+}
+.user-profile:hover{
+    cursor: pointer;
+}
+.create-button{
+    width: 110px;
+    height: 40px;
+    border-radius: 25px;
+    border-style: solid;
+    background-color: rgba(251, 251, 251, 0.212);
+    border-color: transparent;
+    padding: 0;
+
+
+}
+.create-button:hover{
+    cursor: pointer;
+}
+.creating{
+    display: inline-block;
+    font-family: roboto;
+    font-size: 18px;
+    color: white;
+    margin: 0;
+    margin-bottom: 3px;
+    vertical-align: middle;
+
+}
+.creating1{
+    display: inline-block;
+    font-size: 30px;
+    margin-right: 5px;
+    font-family: roboto;
+    color: white;
+    margin: 0;
+    margin-bottom: 5px;
+    vertical-align: middle;
+
+
+}
+.bell{
+    width: 28px;
+}
+.bell:hover{
+    cursor: pointer;
+}
+.user-profile-photo{
+    width: 40px;
+    border-radius: 50px;
+}
+.hambbb{
+    width: 100%;
+    margin-top: 6px;
+}
