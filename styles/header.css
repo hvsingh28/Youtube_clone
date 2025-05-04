@@ -8,6 +8,7 @@
     left: 0px;
     right: 0px;
     background-color: #121212fa;
+    z-index: 1;
 }
 .section1{
     width: 300px;
@@ -70,6 +71,7 @@
     border-style: solid;
     border-color: transparent;
 }
+
 .search-button{
     flex: 10;
     border: none;
