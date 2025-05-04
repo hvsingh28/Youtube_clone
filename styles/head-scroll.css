@@ -1,8 +1,35 @@
 .head-scroll{
+    display: flex;
     position: fixed;
     top: 60px;
-    left: 140px;
-    right: 0px;
-    height: 40px;
-    background-color: beige;
+    left: 160px;
+    right: 20px;
+    height: 70px;
+    z-index: 2;
+    flex-direction: row;
+    flex-wrap: 1;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    background-color: #121212fa;
+    z-index: 1;
+    padding-left: 0;
+    margin-left: 0;
+}
+.scroll-container{
+    height: 20px;
+    border-style: solid;
+    background-color: rgba(251, 251, 251, 0.212);
+    border-color: transparent;
+    border-radius: 5px;
+    padding: 5px 9px;
+
+}
+.scroll-content{
+    font-size: 15px;
+    margin: 0;
 }
