@@ -13,6 +13,10 @@
     width: 400px;
     
 }
+@media (max-width:900px){
+    .main{
+    grid-template-columns: 1fr 1fr;}
+}
 
 .thumbnail-image{
     width: 100%;
@@ -49,7 +53,6 @@
     margin-top: 0;
 }
 .video-details1{
-    font-family: Roboto;
     font-size: 14px;
     margin-top: 0;
     text-align: center;
@@ -64,7 +67,6 @@
     cursor:pointer;
 }
 .video-details{
-    font-family: roboto;
     font-size: 14px;
     margin-top: 0;
     color: #aaaaaa;
@@ -80,7 +82,6 @@
     cursor: pointer;
 }
 .titles{
-    font-family: Roboto;
     font-size: 16px;
     margin-top: 10px;
     margin-left: 8px;
@@ -93,7 +94,6 @@
     cursor: pointer;
 }
 .names{
-    font-family: Roboto;
     font-size: 14px;
     margin-left: 8px;
     margin-top: 11px;
@@ -131,7 +131,12 @@
         padding-right: 5px;
         font-size: 14px;
         border-radius: 3px;
+        transition: background-color .15s;
     }
 }  
+.times:hover{
+    cursor: pointer;
+    background-color:rgba(0, 0, 0, 0.438); 
+}
 
 
