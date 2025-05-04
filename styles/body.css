@@ -131,7 +131,12 @@
         padding-right: 5px;
         font-size: 14px;
         border-radius: 3px;
+        transition: background-color .15s;
     }
 }  
+.times:hover{
+    cursor: pointer;
+    background-color:rgba(0, 0, 0, 0.438); 
+}
 
 
