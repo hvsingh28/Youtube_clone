@@ -1,8 +1,44 @@
-.head-scroll{
+.head-scroll {
+    display: flex;
     position: fixed;
     top: 60px;
-    left: 140px;
-    right: 0px;
-    height: 40px;
-    background-color: beige;
-}
+    left: 160px;
+    right: 20px;
+    height: 70px;
+    flex-direction: row;
+    flex-wrap: nowrap; /* FIXED */
+    overflow-x: auto;
+    white-space: nowrap;
+    column-gap: 10px;
+    align-items: center;
+    background-color: #121212fa;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE/Edge */
+  }
+  .head-scroll::-webkit-scrollbar {
+    display: none; /* Chrome/Safari */
+  }
+  
+  .scroll-container {
+    flex: 0 0 auto;
+    height: 22px;
+    border-style: solid;
+    background-color: rgba(251, 251, 251, 0.212);
+    border-color: transparent;
+    border-radius: 5px;
+    padding: 5px 9px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .scroll-container:hover {
+    cursor: pointer;
+    background-color: rgba(251, 251, 251, 0.064);
+  }
+  
+  .scroll-content {
+    font-size: 15px;
+    margin: 0;
+    white-space: nowrap;
+  }
+  
