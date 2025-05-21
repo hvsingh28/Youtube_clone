@@ -21,7 +21,8 @@ A desktop-only clone of the YouTube homepage built using *HTML* and *CSS*. This 
   - Basic Styling
 
 ## Preview
-! [YouTube Clone Screenshot] (images/DEMO screenshot.PNG)
+![YouTube Clone Screenshot](images/DEMO%20screenshot.PNG)
+
 
 ## Getting Started
 
